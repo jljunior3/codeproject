@@ -15,4 +15,14 @@ class Project extends Model
         'status',
         'due_date'
     ];
+
+    public function owner()
+    {
+        return $this->belongsTo(User::class);
+    }
+    public function client()
+    {
+        return $this->belongsTo(Client::class);
+    }
+
 }
