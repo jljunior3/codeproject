@@ -42,7 +42,7 @@ class ProjectService
         try{
             $this->validator->with($data)->passesOrFail();
             return $this->repository->update($data, $id);
-        }catch (ValidationException $e){
+        }catch (ValidationException $e){dd($e->getMessage());
             return [
                 'error' => true,
                 'message' => $e->getMessageBag()
