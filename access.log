@@ -202,3 +202,8 @@
 127.0.0.1 - - [29/Apr/2016:22:25:22 -0300] "GET /project HTTP/1.1" 200 435 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
 127.0.0.1 - - [29/Apr/2016:22:47:02 -0300] "GET /client HTTP/1.1" 200 6503 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
 127.0.0.1 - - [29/Apr/2016:23:10:51 -0300] "GET /project HTTP/1.1" 200 12165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+127.0.0.1 - - [04/Jun/2016:15:11:12 -0300] "GET / HTTP/1.1" 200 402 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36"
+127.0.0.1 - - [04/Jun/2016:15:11:13 -0300] "GET /favicon.ico HTTP/1.1" 200 0 "http://codeproject.php.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36"
+127.0.0.1 - - [04/Jun/2016:15:21:27 -0300] "GET /client HTTP/1.1" 500 25533 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36"
+127.0.0.1 - - [04/Jun/2016:15:21:32 -0300] "GET /client/ HTTP/1.1" 500 25533 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36"
+127.0.0.1 - - [04/Jun/2016:15:35:29 -0300] "GET / HTTP/1.1" 200 41 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36"

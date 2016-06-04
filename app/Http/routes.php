@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-	return view('welcome');
+	return "olá mundo";
 });
 
 Route::get('client','ClientController@index');
