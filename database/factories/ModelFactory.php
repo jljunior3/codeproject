@@ -51,3 +51,20 @@ $factory->define(CodeProject\Entities\ProjectNote::class, function (Faker\Genera
 	];
 });
 
+$factory->define(CodeProject\Entities\ProjectTask::class, function (Faker\Generator $faker) {
+	return [
+		'name' => $faker->word,
+		'project_id' => rand(1,50),
+		'start_date' => $faker->dateTime('now'),
+		'due_date' => $faker->dateTimeBetween('+1 week', '+1 month'),
+		'status' => rand(1,3)
+	];
+});
+
+$factory->define(CodeProject\Entities\ProjectMember::class, function (Faker\Generator $faker) {
+	return [
+		'project_id' => rand(1,50),
+		'user_id' => rand(1,50),
+	];
+});
+
