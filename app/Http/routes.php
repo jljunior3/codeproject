@@ -32,3 +32,15 @@ Route::post('project','ProjectController@store');
 Route::put('project/{id}','ProjectController@update');
 Route::get('project/{id}','ProjectController@show');
 Route::delete('project/{id}','ProjectController@destroy');
+
+Route::get('project/{id}/tasks','ProjectTasksController@index');
+Route::post('project/{id}/tasks','ProjectTasksController@store');
+Route::get('project/{id}/tasks/{taskId}','ProjectTasksController@show');
+Route::put('project/{id}/tasks/{taskId}','ProjectTasksController@update');
+Route::delete('project/{id}/tasks/{taskId}','ProjectTasksController@delete');
+
+Route::get('project/{id}/member','ProjectMemberController@index');
+Route::post('project/{id}/member','ProjectMemberController@store');
+Route::get('project/{id}/member/{memberId}','ProjectMemberController@show');
+Route::put('project/{id}/member/{memberId}','ProjectMemberController@update');
+Route::delete('project/{id}/member/{memberId}','ProjectMemberController@delete');
